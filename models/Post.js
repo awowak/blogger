@@ -1,5 +1,5 @@
 module.exports = function(sequelize, DataTypes) {
-<<<<<<< HEAD
+// <<<<<<< HEAD
     var Post = sequelize.define('posts', {
         title: DataTypes.STRING,
         body: DataTypes.TEXT
@@ -16,7 +16,7 @@ module.exports = function(sequelize, DataTypes) {
             }
         }
     });
-=======
+// =======
   var Post = sequelize.define('posts', {
     title: DataTypes.STRING,
     body: DataTypes.TEXT
@@ -29,7 +29,7 @@ module.exports = function(sequelize, DataTypes) {
             allowNull: false
           }
         });
->>>>>>> f81814a0a711b3936cfb9a21255c180a361691f9
+// >>>>>>> f81814a0a711b3936cfb9a21255c180a361691f9
 
         Post.hasMany(models.comments);
       }
