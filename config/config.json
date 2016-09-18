@@ -2,6 +2,7 @@
   "development": {
     "dialect": "postgres",
     "username": "postgres",
-    "password": ""
-  }
+    "password": "",
+    "database": "blogger_development"
+	}
 }
